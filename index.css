@@ -1,0 +1,38 @@
+* {
+    margin: 0
+}
+
+*, *::before, *::after {
+    box-sizing: border-box
+}
+
+input, textarea, ul, ol, li, select, button {
+    font: inherit
+}
+
+img, audio, video, canvas {
+    vertical-align: bottom;
+    max-width: 100%;
+}
+
+.post__item {
+    display:flex;
+    gap: 1rem;    
+}
+
+.post__tag {
+    margin: 0 0.5rem;
+    padding:0 0.2rem;
+    background-color: lightgray;
+    border-radius:5px;
+    font-size:0.8rem;
+}
+
+.posts__list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+main {
+    padding: 0.2rem;
+}

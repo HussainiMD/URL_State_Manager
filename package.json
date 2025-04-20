@@ -1,0 +1,39 @@
+{
+  "name": "url_state_manager",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html",
+    "start": "parcel serve index.html",
+    "clear-cache": "del .parcel-cache",
+    "clean": "del node_modules"
+  },
+  "homepage": "https://github.com/HussainiMD/front-end-development#readme",
+  "bugs": {
+    "url": "https://github.com/HussainiMD/front-end-development/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HussainiMD/front-end-development.git"
+  },
+  "keywords": [
+    "HussainiMD",
+    "react",
+    "queryParams"
+  ],
+  "author": "HussainiMD",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "Demonstrating URL/Query params as React state manager",
+  "devDependencies": {
+    "parcel": "^2.14.4",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-router-dom": "6.21.1",
+    "url_state_manager": "file:"
+  }
+}

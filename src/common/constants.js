@@ -1,0 +1,1 @@
+export const URL_PARAM_NAMES = {'search': 'searchBy', 'tagFilter': 'filterByTag'};
